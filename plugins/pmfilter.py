@@ -1971,7 +1971,7 @@ async def advantage_spell_chok(client, message):
         return
     if not movies:
         google = search.replace(" ", "+")
-        button = [[InlineKeyboardButton("🔍 Cʜᴇᴄᴋ Sᴘᴇʟʟɪɴɢ ᴏɴ Gᴏᴏɢʟᴇ 🔍", url=f"https://www.google.com/search?q={google}")]]
+        button = [[InlineKeyboardButton("➕ Cʜᴇᴄᴋ Sᴘᴇʟʟɪɴɢ ᴏɴ Gᴏᴏɢʟᴇ ➕", url=f"https://www.google.com/search?q={google}")]]
         k = await message.reply_text(text=script.I_CUDNT.format(search), reply_markup=InlineKeyboardMarkup(button))
         await asyncio.sleep(60)
         await k.delete()
