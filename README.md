@@ -5,44 +5,45 @@
   <title>HD Pro Search Bot</title>
   <style>
     body {
-      background: #000;
+      background-color: #000;
       display: flex;
       justify-content: center;
       align-items: center;
       height: 100vh;
+      margin: 0;
     }
-    .typing {
+
+    .typing-text {
       font-family: 'Courier New', monospace;
-      font-size: 32px;
+      font-size: 28px;
       white-space: nowrap;
       overflow: hidden;
-      border-right: 4px solid #fff;
-      width: 0;
-      animation: typing 4s steps(30, end) forwards, blink 0.75s step-end infinite, rainbow 4s linear infinite;
+      border-right: 3px solid #fff;
+      animation: typing 4s steps(40, end), blink 0.7s infinite, rainbow 6s linear infinite;
     }
 
     @keyframes typing {
-      from { width: 0; }
-      to { width: 100%; }
+      from { width: 0 }
+      to { width: 100% }
     }
 
     @keyframes blink {
-      50% { border-color: transparent; }
+      50% { border-color: transparent }
     }
 
     @keyframes rainbow {
-      0%   { color: #ff0000; }
-      14%  { color: #ff9900; }
-      28%  { color: #ffff00; }
-      42%  { color: #33cc33; }
-      57%  { color: #3399ff; }
-      71%  { color: #9900cc; }
-      85%  { color: #ff3399; }
-      100% { color: #ff0000; }
+      0%   { color: #FF0000; }
+      14%  { color: #FFA500; }
+      28%  { color: #FFFF00; }
+      42%  { color: #00FF00; }
+      57%  { color: #00FFFF; }
+      71%  { color: #0000FF; }
+      85%  { color: #800080; }
+      100% { color: #FF0000; }
     }
   </style>
 </head>
 <body>
-  <div class="typing">Welcome To HD Pro Search Bot!</div>
+  <div class="typing-text">Welcome To HD Pro Search Bot!</div>
 </body>
 </html>
