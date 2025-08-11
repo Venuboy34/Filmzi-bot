@@ -349,7 +349,7 @@ async def start(client, message):
         await asyncio.sleep(DELETE_TIME)
         for x in filesarr:
             await x.delete()
-        await k.edit_text("<b>✅ Yᴏᴜʀ Vɪᴅᴇᴏ / Fɪʟᴇ Hᴀꜱ Bᴇᴇɴ Dᴇʟᴇᴛᴇᴅ Sᴜᴄᴄᴇꜱꜱꜰᴜʟʟʏ!!\n⚠️ Sᴇᴀʀᴄʜ Aɢᴀɪɴ Tᴏ Cᴏɴᴛɪɴᴜᴇ 👈</b>")
+        await k.edit_text("<b>⚠️ ❌👉 Yᴏᴜʀ Vɪᴅᴇᴏ / Fɪʟᴇ Hᴀꜱ Bᴇᴇɴ Dᴇʟᴇᴛᴇᴅ Sᴜᴄᴄᴇꜱꜱꜰᴜʟʟʏ ❗❗</b>")
         return
 
     user = message.from_user.id
