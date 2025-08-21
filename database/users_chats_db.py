@@ -17,21 +17,22 @@ class Database:
         self.misc = self.db.misc
         self.verify_id = self.db.verify_id 
         self.codes = self.db.codes
-        self.filename_col = self.db.filename  # notification filename
+        self.filename_col = self.db.filename
+        self.movie_updates = self.db.movie_updates
         self.connection = self.db.connections
 
     async def add_name(self, filename):
-        if await self.filename_col.find_one({'_id': filename}):
+        if await self.movie_updates.find_one({'_id': filename}):
             return False
-        await self.filename_col.insert_one({'_id': filename})
+        await self.movie_updates.insert_one({'_id': filename})
         return True
 
     async def delete_all_msg(self):
-        await self.filename_col.delete_many({})
+        await self.movie_updates.delete_many({})
         print("All filenames notification have been deleted.")
         return True
-
  
+     
     async def find_join_req(self, id):
         return bool(await self.req.find_one({'id': id})) 
      
@@ -351,7 +352,7 @@ class Database:
         expiry_time = datetime.datetime.now() + datetime.timedelta(seconds=seconds)
         user_data = {"id": user_id, "expiry_time": expiry_time, "has_free_trial": True}
         await self.users.update_one({"id": user_id}, {"$set": user_data}, upsert=True)
-
+        
     async def all_premium_users(self):
         count = await self.users.count_documents({
         "expiry_time": {"$gt": datetime.datetime.now()}
@@ -401,8 +402,7 @@ class Database:
 
     async def update_movie_update_status(self, bot_id, enable):
         await self.update_bot_setting(bot_id, 'MOVIE_UPDATE_NOTIFICATION', enable)
-
-        
+     
 db = Database(DATABASE_URI, DATABASE_NAME)    
 db2 = Database(DATABASE_URI2, DATABASE_NAME)
 
