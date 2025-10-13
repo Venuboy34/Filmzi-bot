@@ -199,7 +199,7 @@ if 'DYNO' in os.environ:
 else:
     ON_HEROKU = False
 
-BIND_ADRESS = 'https://various-tessy-zerocreationhh-2405d2b2.koyeb.app'
+BIND_ADRESS = '0.0.0.0'
 FQDN = BIND_ADRESS if not ON_HEROKU or os.getenv('FQDN') else APP_NAME+'.herokuapp.com'
 
 # Fix URL construction
