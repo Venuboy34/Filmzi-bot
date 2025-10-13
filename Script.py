@@ -2,180 +2,410 @@ class script(object):
     START_TXT = """
 <b>🎬 Hey {}! Welcome to Filmzi! 🍿</b>
 
-<b>🌟 Your Ultimate Movie Search Companion!</b>
+<b>┏━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃  🌟 Your Ultimate Movie   ┃
+┃  🔍 Search Companion!     ┃
+┗━━━━━━━━━━━━━━━━━━━━━━━━┛</b>
 
-<b>Here you can search for your favorite movies and web series. Just send me the</b> <b>movie name with proper</b> <b><a href='https://www.google.com/'>Google</a> spelling! 🎯</b>"""
+<b>Here you can search for your favorite movies and web series. Just send me the movie name with proper <a href='https://www.google.com/'>Google</a> spelling! 🎯</b>"""
     
-    GSTART_TXT = """🎬 Welcome to Filmzi - Your Movie Search Engine!"""
+    GSTART_TXT = """┏━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃   🎬 Welcome to Filmzi   ┃
+┃   Your Movie Search      ┃
+┃   Engine! 🔍             ┃
+┗━━━━━━━━━━━━━━━━━━━━━━━━┛"""
     
-    HELP_TXT = """<b>
-    
+    HELP_TXT = """<b>┏━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃     📖 How to Use Filmzi      ┃
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+
 📨 Send Movie or Series Name with Year as per Google Spelling! 👍
 
-⚠️ Example For Movies 👇
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃  ⚠️ Example For Movies 👇    ┃
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
 
 👉 Jailer
 👉 Jailer 2023
 
-⚠️ Example For Web Series 👇
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃ ⚠️ Example For Web Series 👇 ┃
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
 
 👉 Stranger Things 
 👉 Stranger Things S02 E04
 
-⚠️ Don't add emojis and symbols in movie name, use letters only! ❌
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃  ⚠️ Important Guidelines      ┃
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+
+❌ Don't add emojis and symbols in movie name
+✅ Use letters and numbers only!
 </b>"""
 
-    ABOUT_TXT = """<b>╭────[ 🎬 Filmzi Details ]────⍟
-├⍟ Bot Name : <a href=https://t.me/{}>{}</a>
-├⍟ Developer : <a href={}>Owner</a> 
-├⍟ Library : <a href='https://docs.pyrogram.org/'>Pyrogram</a>
-├⍟ Language : <a href='https://www.python.org/download/releases/3.0/'>Python 3</a> 
-├⍟ Database : <a href='https://www.mongodb.com/'>Mongo DB</a> 
-├⍟ Server : <a href='https://heroku.com/'>Heroku</a> 
-├⍟ Version : v2.0 [ Stable ]
-╰───────────────⍟</b>"""
-    
-    RESTART_TXT = """
-<b>{} Bot Restarted Successfully! 🎉
+    ABOUT_TXT = """<b>┏━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃    🎬 Filmzi Bot Details      ┃
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
 
-📅 Date : <code>{}</code>
-⏰ Time : <code>{}</code>
-🌐 Timezone : <code>Asia/Kolkata</code>
-🛠️ Version: <code>v2.0 [ Stable ]</code>
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃ 🤖 Bot Name                   ┃
+┃ <a href=https://t.me/{}>{}</a>
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃ 👨‍💻 Developer                  ┃
+┃ <a href={}>Owner</a>
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃ 📚 Library                    ┃
+┃ <a href='https://docs.pyrogram.org/'>Pyrogram</a>
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃ 🐍 Language                   ┃
+┃ <a href='https://www.python.org/download/releases/3.0/'>Python 3</a>
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃ 🗄️ Database                   ┃
+┃ <a href='https://www.mongodb.com/'>Mongo DB</a>
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃ 🖥️ Server                     ┃
+┃ <a href='https://heroku.com/'>Heroku</a>
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃ 🔧 Version                    ┃
+┃ v2.0 [ Stable ]              ┃
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+</b>"""
+    
+    RESTART_TXT = """<b>┏━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃   {} Bot Restarted! 🎉    ┃
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃ 📅 Date                       ┃
+┃ <code>{}</code>
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃ ⏰ Time                       ┃
+┃ <code>{}</code>
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃ 🌐 Timezone                   ┃
+┃ <code>Asia/Kolkata</code>
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃ 🛠️ Version                    ┃
+┃ <code>v2.0 [ Stable ]</code>
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
 </b>"""
 
-    CHANNELS = """
-<b>⚡ Filmzi Groups & Channels ⚡ 
+    CHANNELS = """<b>┏━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃ ⚡ Filmzi Groups & Channels ⚡ ┃
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
 
-▫ All New Movies & Series
-▫ Fastest Bots Available
-▫ Free & Easy to Use
-▫ 24x7 Services Available</b>"""
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃ ✨ Features                   ┃
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
 
-    MULTI_STATUS_TXT = """<b>╭────[ 🗃 Database 1 🗃 ]────⍟</b>
-│
-├⋟ All Users ⋟ <code>{}</code>
-├⋟ All Groups ⋟ <code>{}</code>
-├⋟ Premium Users ⋟ <code>{}</code>
-├⋟ All Files ⋟ <code>{}</code>
-├⋟ Used Storage ⋟ <code>{}</code>
-├⋟ Free Storage ⋟ <code>{}</code>
-│
-<b>├────[ 🗳 Database 2 🗳 ]────⍟</b>   
-│
-├⋟ All Files ⋟ <code>{}</code>
-├⋟ Size ⋟ <code>{}</code>
-├⋟ Free ⋟ <code>{}</code>
-│
-<b>├────[ 🤖 Bot Details 🤖 ]────⍟</b>   
-│
-├⋟ Uptime ⋟ {}
-├⋟ RAM ⋟ <code>{}%</code>
-├⋟ CPU ⋟ <code>{}%</code>   
-│
-├⋟ Total Files: <code>{}</code>
-│
-<b>╰─────────────────────⍟</b>"""
+▫️ All New Movies & Series
+▫️ Fastest Bots Available
+▫️ Free & Easy to Use
+▫️ 24x7 Services Available
+</b>"""
 
-    STATUS_TXT = """<b>╭────[ 🗃 Database 🗃 ]────⍟</b>
-│
-├⋟ All Users ⋟ <code>{}</code>
-├⋟ All Groups ⋟ <code>{}</code>
-├⋟ Premium Users ⋟ <code>{}</code>
-├⋟ All Files ⋟ <code>{}</code>
-├⋟ Used Storage ⋟ <code>{}</code>
-├⋟ Free Storage ⋟ <code>{}</code>
-│
-<b>├────[ 🤖 Bot Details 🤖 ]────⍟</b>   
-│
-├⋟ Uptime ⋟ {}
-├⋟ RAM ⋟ <code>{}%</code>
-├⋟ CPU ⋟ <code>{}%</code>   
-│
-<b>╰─────────────────────⍟</b>"""
+    MULTI_STATUS_TXT = """<b>┏━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃     🗃 Database 1 🗃          ┃
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
 
-    LOG_TEXT_G = """#NewGroup
-    
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃ 👥 All Users                  ┃
+┃ <code>{}</code>
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃ 👥 All Groups                 ┃
+┃ <code>{}</code>
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃ 💎 Premium Users              ┃
+┃ <code>{}</code>
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃ 📁 All Files                  ┃
+┃ <code>{}</code>
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃ 💾 Used Storage               ┃
+┃ <code>{}</code>
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃ 💽 Free Storage               ┃
+┃ <code>{}</code>
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃     🗳 Database 2 🗳          ┃
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃ 📁 All Files                  ┃
+┃ <code>{}</code>
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃ 📊 Size                       ┃
+┃ <code>{}</code>
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃ 💽 Free                       ┃
+┃ <code>{}</code>
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃     🤖 Bot Details 🤖         ┃
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃ ⏱️ Uptime                     ┃
+┃ {}
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃ 🎮 RAM                        ┃
+┃ <code>{}%</code>
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃ ⚡ CPU                        ┃
+┃ <code>{}%</code>
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃ 📊 Total Files                ┃
+┃ <code>{}</code>
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+</b>"""
+
+    STATUS_TXT = """<b>┏━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃       🗃 Database 🗃          ┃
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃ 👥 All Users                  ┃
+┃ <code>{}</code>
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃ 👥 All Groups                 ┃
+┃ <code>{}</code>
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃ 💎 Premium Users              ┃
+┃ <code>{}</code>
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃ 📁 All Files                  ┃
+┃ <code>{}</code>
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃ 💾 Used Storage               ┃
+┃ <code>{}</code>
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃ 💽 Free Storage               ┃
+┃ <code>{}</code>
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃     🤖 Bot Details 🤖         ┃
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃ ⏱️ Uptime                     ┃
+┃ {}
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃ 🎮 RAM                        ┃
+┃ <code>{}%</code>
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃ ⚡ CPU                        ┃
+┃ <code>{}%</code>
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+</b>"""
+
+    LOG_TEXT_G = """┏━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃      #NewGroup               ┃
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+
 Group = {}
 ID = <code>{}</code>
 Total Members = <code>{}</code>
 Added By - {}
 """
 
-    LOG_TEXT_P = """#NewUser
-    
+    LOG_TEXT_P = """┏━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃      #NewUser                ┃
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+
 ID - <code>{}</code>
 Name - {}
 """
     
-    NT_ADMIN_ALRT_TXT = """‼️ You are not admin in this group ‼️"""
+    NT_ADMIN_ALRT_TXT = """┏━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃ ‼️ You are not admin in    ┃
+┃    this group ‼️           ┃
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━┛"""
 
-    NT_ALRT_TXT = """Not Yours!"""
+    NT_ALRT_TXT = """❌ Not Yours!"""
     
-    ALRT_TXT = """Hello {},
+    ALRT_TXT = """┏━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃      Hello {},             ┃
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+
 This is not your movie request,
 Request your own..."""
 
-    OLD_ALRT_TXT = """Hey {},
+    OLD_ALRT_TXT = """┏━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃      Hey {},               ┃
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+
 You are using one of my old messages, 
 Please send the request again."""
 
-    CUDNT_FND = SPELLING_ERROR_TXT = """⚠️ <b>We couldn't find that!</b> Check your spelling or pick from the suggestions below 👇</b>"""
+    CUDNT_FND = SPELLING_ERROR_TXT = """┏━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃ ⚠️ We couldn't find that!   ┃
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
 
-    I_CUDNT = """<b>📨 Send Movie or Series Name and Year as per Google Spelling! 👍
+<b>Check your spelling or pick from the suggestions below 👇</b>"""
 
-⚠️ Example For Movies 👇
+    I_CUDNT = """<b>┏━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃     📨 How to Search         ┃
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+
+Send Movie or Series Name and Year as per Google Spelling! 👍
+
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃  ⚠️ Example For Movies 👇    ┃
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
 
 👉 Jailer
 👉 Jailer 2023
 
-⚠️ Example For Web Series 👇
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃ ⚠️ Example For Web Series 👇 ┃
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
 
 👉 Stranger Things 
 👉 Stranger Things S02 E04
 
-⚠️ Don't add emojis and symbols in movie name, use letters only! ❌</b>"""
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃  ⚠️ Important Guidelines      ┃
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+
+❌ Don't add emojis and symbols in movie name, use letters only!
+</b>"""
     
-    I_CUD_NT = """<b>I couldn't find any movie related to {}.
+    I_CUD_NT = """<b>┏━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃   I couldn't find {}       ┃
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
 
-Movie not available reasons:
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃ Movie not available reasons: ┃
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
 
-1) OTT or DVD not released
-2) Type name with year
-3) Movie is not available in the database - report to admins</b>"""
-
-    MVE_NT_FND = NOT_FOUND_TXT = """<b>⚠️ This title is currently unavailable in our database.</b>"""
-    
-    TOP_ALRT_MSG = """🔍 Searching for query in our database..."""
-
-    MELCOW_ENG = """<b>👋 Hey {},\n\n🎬 Welcome to\n🌟 {} \n\n🔍 Here you can search your favorite movies or series by just typing it's name 🔎\n\n⚠️ If you're having any problem regarding downloading or something else then message here 👇</b>"""
-    
-    DISCLAIMER_TXT = """
-<b>This is an open source project.
-
-All the files in this bot are freely available on the internet or posted by somebody else. Just for easy searching this bot is indexing files which are already uploaded on Telegram. We respect all the copyright laws and works in compliance with DMCA and EUCD. If anything is against law please contact me so that it can be removed ASAP. It is forbidden to download, stream, reproduce, share or consume content without explicit permission from the content creator or legal copyright holder. If you believe this bot is violating your intellectual property, contact the respective channels for removal. The bot does not own any of these contents, it only index the files from Telegram. 
+1️⃣ OTT or DVD not released
+2️⃣ Type name with year
+3️⃣ Movie is not available in the database - report to admins
 </b>"""
 
-    FILMZI_DONATION = DONATE_TXT = """<b>👋 Hey {},</b>
+    MVE_NT_FND = NOT_FOUND_TXT = """<b>┏━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃ ⚠️ This title is currently  ┃
+┃    unavailable in our       ┃
+┃    database.                ┃
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+</b>"""
+    
+    TOP_ALRT_MSG = """┏━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃ 🔍 Searching for query in   ┃
+┃    our database...          ┃
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━┛"""
 
-<blockquote>💖 <b>Please donate to support Filmzi development</b></blockquote>
+    MELCOW_ENG = """<b>┏━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃      👋 Hey {},            ┃
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
 
-<b>🔧 To keep this service alive, add new features & upload best movies/web series non-stop in high quality, we need your support.
-It helps us pay for hosting & server resources.</b>
+🎬 Welcome to
+🌟 {} 
 
-<b>🌝 You can donate any amount you have.</b>
+🔍 Here you can search your favorite movies or series by just typing it's name 🔎
 
-<blockquote>🎉 <b>Select your donation method 👇</b></blockquote>
+⚠️ If you're having any problem regarding downloading or something else then message here 👇
+</b>"""
+    
+    DISCLAIMER_TXT = """<b>┏━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃      ⚖️ Disclaimer            ┃
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+
+This is an open source project.
+
+All the files in this bot are freely available on the internet or posted by somebody else. Just for easy searching this bot is indexing files which are already uploaded on Telegram. 
+
+We respect all the copyright laws and works in compliance with DMCA and EUCD. If anything is against law please contact me so that it can be removed ASAP. 
+
+It is forbidden to download, stream, reproduce, share or consume content without explicit permission from the content creator or legal copyright holder. 
+
+If you believe this bot is violating your intellectual property, contact the respective channels for removal. The bot does not own any of these contents, it only index the files from Telegram.
+</b>"""
+
+    FILMZI_DONATION = DONATE_TXT = """<b>┏━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃      👋 Hey {},            ┃
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+
+<blockquote>┏━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃ 💖 Please donate to support ┃
+┃    Filmzi development       ┃
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━┛</blockquote>
+
+🔧 To keep this service alive, add new features & upload best movies/web series non-stop in high quality, we need your support.
+It helps us pay for hosting & server resources.
+
+🌝 You can donate any amount you have.
+
+<blockquote>┏━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃ 🎉 Select your donation     ┃
+┃    method 👇                ┃
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━┛</blockquote>
 
 ➤ 📷 QR Code → <a href='{}'>Click here to scan</a>  
 ➤ 💸 UPI ID → <code>{}</code>
 
-‼️ <b>Must send screenshot after donating.</b>"""
+‼️ Must send screenshot after donating.
+</b>"""
 
-    SINFO = """
-⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯
-Series Request Format
-⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯
+    SINFO = """┏━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃  Series Request Format      ┃
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
 
 Go to Google ➠ Type series name ➠ Copy correct name ➠ Paste in this group
 
@@ -183,118 +413,161 @@ Example : Loki S01E01
 
 🚯 Don't use ➠ ':(!,./)"""
 
-    NORSLTS = """ 
-#NoResults
+    NORSLTS = """┏━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃      #NoResults             ┃
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
 
 ID : <code>{}</code>
 Name : {}
 
 Message : <b>{}</b>"""
     
-    CAPTION = """<b><a href="https://t.me/filmzi_updates">{file_name}</a></b>\n\n<b>⚡ Uploaded by : <a href="https://t.me/filmzi_updates">Filmzi Movie Bot 🎬</a></b>"""
+    CAPTION = """<b><a href="https://t.me/filmzi_updates">{file_name}</a></b>
 
-    MOVIE_UPDATE_NOTIFY_TXT = """
-</b><a href={poster_url}>📥 </a><a href={imdb_url}>NEW {tag} ADDED</a></b>
+<b>⚡ Uploaded by : <a href="https://t.me/filmzi_updates">Filmzi Movie Bot 🎬</a></b>"""
 
-✨ Title : <code>{filename}</code>
-─┉─•✦•─┉─
-<blockquote>🎭 Genres : <b>{genres}</b>
-🍿 OTT : <b>{ott}</b>
-🎬 Quality : <b>{quality}</b>
-🔉 Audio : <b>{language}</b>
-🌟 Rating : <b>{rating}</b>
-{episodes} </blockquote>
-─┉─•✦•─┉─
+    MOVIE_UPDATE_NOTIFY_TXT = """<b><a href={poster_url}>📥 </a><a href={imdb_url}>NEW {tag} ADDED</a>
+
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃ ✨ Title                     ┃
+┃ <code>{filename}</code>
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+
+<blockquote>┏━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃ 🎭 Genres : {genres}
+┃ 🍿 OTT : {ott}
+┃ 🎬 Quality : {quality}
+┃ 🔉 Audio : {language}
+┃ 🌟 Rating : {rating}
+┃ {episodes}
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━┛</blockquote>
 
 🔍 <b>Search →</b> {search_link}
-"""
+</b>"""
     
-    IMDB_TEMPLATE_TXT = """
-<b>🏷 Title</b>: <a href={url}>{title}</a>
+    IMDB_TEMPLATE_TXT = """<b>┏━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃       🎬 Movie Info          ┃
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+
+🏷 Title: <a href={url}>{title}</a>
 🎭 Genres: {genres}
 📆 Year: <a href={url}/releaseinfo>{year}</a>
 🌟 Rating: <a href={url}/ratings>{rating}/10</a>
 
-⏰ Result Shown in: {remaining_seconds} seconds 🔥
-Requested by: {message.from_user.mention}</b>"""
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃ ⏰ Result Shown in:          ┃
+┃ {remaining_seconds} seconds 🔥┃
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+
+Requested by: {message.from_user.mention}
+</b>"""
 
     LOGO = """
-╭━━━┳━━━┳━━━┳━━━┳━╮╭━┳━━━┳━━┳━╮╱╭┳━━━┳━━━━┳━━━┳━╮╱╭┳━━━╮
-┃   [🎬 FILMZI MOVIE BOT WORKING PERFECTLY]   ┃
-╰━━━┻━━━┻━━━┻━━━┻╯╰╯╰┻━━━┻━━┻╯╰╯╰┻━━━┻━━━━┻━━━┻╯╰╯╰┻━━━╯
+╔═══════════════════════════════╗
+║  🎬 FILMZI MOVIE BOT          ║
+║  WORKING PERFECTLY ✨         ║
+╚═══════════════════════════════╝
 """
 
     # PLANS
 
-    PAGE_TXT = """Why are you so curious? 🤔"""
+    PAGE_TXT = """┏━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃ Why are you so curious? 🤔  ┃
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━┛"""
 
-    PURCHASE_TXT = """Select your payment method."""
+    PURCHASE_TXT = """┏━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃ Select your payment method. ┃
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━┛"""
 
-    PREMIUM_TEXT = """<blockquote>🎖️ <b>Available Plans</b></blockquote>
+    PREMIUM_TEXT = """<blockquote>┏━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃  🎖️ Available Plans          ┃
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━┛</blockquote>
 
-◉ 07 Days - 10 ₹
-◉ 15 Days - 20 ₹
-◉ 30 Days - 40 ₹
-◉ 45 Days - 55 ₹
-◉ 60 Days - 75 ₹
-
-•─────•─────────•─────•
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃ ◉ 07 Days - 10 ₹            ┃
+┃ ◉ 15 Days - 20 ₹            ┃
+┃ ◉ 30 Days - 40 ₹            ┃
+┃ ◉ 45 Days - 55 ₹            ┃
+┃ ◉ 60 Days - 75 ₹            ┃
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
 
 🏷️ <a href='https://t.me/filmzi_updates'>Subscription Proof</a>
 
 ‼️ Must send screenshot after payment.
 ‼️ After sending screenshot give us some time to add you in premium list."""
 
-    PREMIUM_STAR_TEXT = """<b><blockquote>Payment Method: Telegram Stars ⭐</blockquote>
+    PREMIUM_STAR_TEXT = """<b><blockquote>┏━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃ Payment Method:             ┃
+┃ Telegram Stars ⭐           ┃
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━┛</blockquote>
 
 Now you can buy our premium service using Telegram stars.  
 
 If you face any problem, take a screenshot and send it to @filmzi_support
 
-Select your desired amount and purchase a subscription 👇.</b>"""
+Select your desired amount and purchase a subscription 👇.
+</b>"""
 
-    PREMIUM_UPI_TEXT = """<b><blockquote>Payment Method: UPI</blockquote>
+    PREMIUM_UPI_TEXT = """<b><blockquote>┏━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃ Payment Method: UPI         ┃
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━┛</blockquote>
 
 You can purchase premium through UPI, net banking.
 
-💳 UPI ID - <code>{}</code>
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃ 💳 UPI ID                    ┃
+┃ <code>{}</code>
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
 
 💢 Must send screenshot after payment.
 
-‼️ After sending screenshot please give us some time to add you in premium list.</b>"""
+‼️ After sending screenshot please give us some time to add you in premium list.
+</b>"""
     
-    BPREMIUM_TXT = """<blockquote>🎁 <b>Premium Features</b> :</blockquote>
+    BPREMIUM_TXT = """<blockquote>┏━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃  🎁 Premium Features         ┃
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━┛</blockquote>
 
-○ No need to verify
-○ No need to open links
-○ Direct files   
-○ Ad-free experience 
-○ High-speed download links                         
-○ Multi-player streaming links                           
-○ Unlimited movies & series                                                                        
-○ Full admin support                              
-○ Request will be completed in 1h [ if available ]
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃ ○ No need to verify         ┃
+┃ ○ No need to open links     ┃
+┃ ○ Direct files              ┃
+┃ ○ Ad-free experience        ┃
+┃ ○ High-speed download links ┃
+┃ ○ Multi-player streaming    ┃
+┃ ○ Unlimited movies & series ┃
+┃ ○ Full admin support        ┃
+┃ ○ Request completed in 1h   ┃
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
 
 • You can get premium by referring your friends or you can buy premium service 
 
-•─────•─────────•─────•
-◉ Check your active plan : /myplan
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃ ◉ Check your active plan :  ┃
+┃ /myplan                     ┃
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
 
 ‼️ After sending screenshot give us some time to add you in premium list."""  
 
-    PREPLANS_TXT = PREMIUM_TXT = """<b>👋 Hey {},
+    PREPLANS_TXT = PREMIUM_TXT = """<b>┏━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃      👋 Hey {},            ┃
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
 
-<blockquote>🎖️ <b>Available Plans</b></blockquote>
+<blockquote>┏━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃  🎖️ Available Plans          ┃
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━┛</blockquote>
 
-◉ 07 Days - 10 ₹  
-◉ 15 Days - 20 ₹  
-◉ 30 Days - 40 ₹  
-◉ 45 Days - 55 ₹  
-◉ 60 Days - 75 ₹  
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃ ◉ 07 Days - 10 ₹            ┃
+┃ ◉ 15 Days - 20 ₹            ┃
+┃ ◉ 30 Days - 40 ₹            ┃
+┃ ◉ 45 Days - 55 ₹            ┃
+┃ ◉ 60 Days - 75 ₹            ┃
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
 
-•─────•─────────•─────•
-
-🏷️ <b>Payment Methods</b>
+<blockquote>┏━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃ 🏷️ Payment Methods          ┃
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━┛</blockquote>
 
 💸 UPI ID → <code>{}</code>  
 📷 QR Code → <a href='{}'>Click here to scan</a>  
@@ -304,49 +577,78 @@ You can purchase premium through UPI, net banking.
 ‼️ Must send screenshot after payment.  
 ‼️ After sending a screenshot, give us some time to add you in the premium list.
 
-💎 Check your plan → /myplan</b>"""
+💎 Check your plan → /myplan
+</b>"""
 
-    FREE_TXT = """<b>👋 Hey {},
+    FREE_TXT = """<b>┏━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃      👋 Hey {},            ┃
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
     
-🎉 <u>Free Trial</u> 🎉
-❗ Only for 5 minutes
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃ 🎉 Free Trial 🎉            ┃
+┃ ❗ Only for 5 minutes       ┃
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
  
-○ No need to open links
-○ Multi-player streaming links
-○ Ad-free experience
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃ ○ No need to open links     ┃
+┃ ○ Multi-player streaming    ┃
+┃ ○ Ad-free experience        ┃
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
 
 👨‍💻 Contact the <a href='https://t.me/Zeroboy216'>Owner</a> to get your trial.
 
 ➛ Use /plan to see all our plans at once.
-➛ Check your active plan by using : /myplan</b>"""
+➛ Check your active plan by using : /myplan
+</b>"""
 
-    UPI_TXT = """<b>👋 Hey {},
+    UPI_TXT = """<b>┏━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃      👋 Hey {},            ┃
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
     
- Pay amount according to your plan and enjoy premium membership!
+Pay amount according to your plan and enjoy premium membership!
 
-💵 UPI ID - <code>{}</code>
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃ 💵 UPI ID                   ┃
+┃ <code>{}</code>
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
 
-‼️ Must send screenshot after payment.</b>"""
+‼️ Must send screenshot after payment.
+</b>"""
 
-    QR_TXT = """<b>👋 Hey {},
+    QR_TXT = """<b>┏━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃      👋 Hey {},            ┃
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
     
- Pay amount according to your plan and enjoy premium membership!
+Pay amount according to your plan and enjoy premium membership!
 
-📸 QR Code - <a href='{}'>Click here to scan</a>
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃ 📸 QR Code                  ┃
+┃ <a href='{}'>Click here to scan</a>
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
 
-‼️ Must send screenshot after payment.</b>"""
+‼️ Must send screenshot after payment.
+</b>"""
 
-    SOURCE_TXT ="""<b>Source Code : 👇 </b>
+    SOURCE_TXT = """<b>┏━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃      Source Code : 👇       ┃
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
 
-This Is An Open-Source Project. You Can Use It Freely, But Selling The Source Code Is Strictly Prohibited.\n
-Source Code Here ◉› : <a href=https://github.com/Rpedit/HD-Pro-Search-Bot.git>Filmzi Bot</a>\n """
+This Is An Open-Source Project. You Can Use It Freely, But Selling The Source Code Is Strictly Prohibited.
 
-    SETTING_TXT = """    
-<u>Settings</u> :
-- Settings is the most important feature of this bot.
-- You can easily customize this bot for your group.
+Source Code Here ◉› : <a href=https://github.com/Rpedit/HD-Pro-Search-Bot.git>Filmzi Bot</a>
+</b>"""
 
-<u>Available Commands</u> :
+    SETTING_TXT = """<b>┏━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃         ⚙️ Settings          ┃
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+
+Settings is the most important feature of this bot.
+You can easily customize this bot for your group.
+
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃   Available Commands        ┃
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+
 • /settings - Change the group settings as your wish.
 • /set_shortner - Set your 1st shortener.
 • /set_shortner_2 - Set your 2nd shortener.
@@ -360,51 +662,94 @@ Source Code Here ◉› : <a href=https://github.com/Rpedit/HD-Pro-Search-Bot.gi
 • /set_fsub - Set custom force sub channel.
 • /remove_fsub - Remove custom force sub channel.
 • /reset_group - Reset your settings.
-• /details - Check your settings."""
+• /details - Check your settings.
+</b>"""
     
-    VERIFICATION_TEXT = """<b><i>👋 Hey {},
+    VERIFICATION_TEXT = """<b><i>┏━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃      👋 Hey {},            ┃
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
 
-📌 You are not verified today, please click on verify & get unlimited access for till next verification.
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃ 📌 You are not verified     ┃
+┃    today                    ┃
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+
+Please click on verify & get unlimited access for till next verification.
 
 #Verification: 1/3 ✓
 
-If you want direct files then you can take premium service (no need to verify).</i></b>"""
+If you want direct files then you can take premium service (no need to verify).
+</i></b>"""
 
-    VERIFY_COMPLETE_TEXT = """<b><i>👋 Hey {},
+    VERIFY_COMPLETE_TEXT = """<b><i>┏━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃      👋 Hey {},            ┃
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
 
-You have completed the 1st verification ✓
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃ ✓ You have completed the    ┃
+┃   1st verification          ┃
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
 
-Now you have unlimited access for next verification.</i></b>"""
+Now you have unlimited access for next verification.
+</i></b>"""
 
-    SECOND_VERIFICATION_TEXT = """<b><i>👋 Hey {},
+    SECOND_VERIFICATION_TEXT = """<b><i>┏━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃      👋 Hey {},            ┃
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
 
-📌 You are not verified, tap on the verify link and get unlimited access for till next verification.
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃ 📌 You are not verified     ┃
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+
+Tap on the verify link and get unlimited access for till next verification.
 
 #Verification: 2/3 ✓
 
-If you want direct files then you can take premium service (no need to verify).</i></b>"""
+If you want direct files then you can take premium service (no need to verify).
+</i></b>"""
 
-    SECOND_VERIFY_COMPLETE_TEXT = """<b><i>👋 Hey {},
+    SECOND_VERIFY_COMPLETE_TEXT = """<b><i>┏━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃      👋 Hey {},            ┃
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
     
-You have completed the 2nd verification ✓
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃ ✓ You have completed the    ┃
+┃   2nd verification          ┃
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
 
-Now you have unlimited access for next verification.</i></b>"""
+Now you have unlimited access for next verification.
+</i></b>"""
 
-    THIRDT_VERIFICATION_TEXT = """<b><i>👋 Hey {},
+    THIRDT_VERIFICATION_TEXT = """<b><i>┏━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃      👋 Hey {},            ┃
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
     
-📌 You are not verified, tap on the verify link & get unlimited access for next full day.
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃ 📌 You are not verified     ┃
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+
+Tap on the verify link & get unlimited access for next full day.
 
 #Verification: 3/3 ✓
 
-If you want direct files then you can take premium service (no need to verify)</i></b>"""
+If you want direct files then you can take premium service (no need to verify)
+</i></b>"""
 
-    THIRDT_VERIFY_COMPLETE_TEXT= """<b><i>👋 Hey {},
+    THIRDT_VERIFY_COMPLETE_TEXT= """<b><i>┏━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃      👋 Hey {},            ┃
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
     
-You have completed the 3rd verification ✓
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃ ✓ You have completed the    ┃
+┃   3rd verification          ┃
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
 
-Now you have unlimited access for next full day.</i></b>"""
+Now you have unlimited access for next full day.
+</i></b>"""
 
-    VERIFIED_LOG_TEXT = """User verified successfully ✓
+    VERIFIED_LOG_TEXT = """┏━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃ User verified successfully ✓┃
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
 
 👤 Name: {} [ <code>{}</code> ]
 
@@ -412,9 +757,13 @@ Now you have unlimited access for next full day.</i></b>"""
 
 #Verification_{}_Completed"""
 
-    ADMIN_CMD = """🎬 Hey Admin!
+    ADMIN_CMD = """┏━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃     🎬 Hey Admin!           ┃
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
 
-📚 Here are my commands list for all bot admins ⇊
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃ 📚 Admin Commands List      ┃
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
 
 • /start - <code>To use my features.</code>
 • /stats - <code>Get the total users and chats.</code>
@@ -443,8 +792,13 @@ Now you have unlimited access for next full day.</i></b>"""
 • /get_premium - <code>Get info of any premium user.</code>
 • /restart - <code>Restart the bot.</code>"""
 
-    GROUP_CMD = """🎬 Hey!
-📚 Here are my commands list for customized groups ⇊
+    GROUP_CMD = """┏━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃      🎬 Hey!                ┃
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃ 📚 Group Commands List      ┃
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
 
 • /settings - Change the group settings as your wish.
 • /set_shortner - Set your 1st shortener.
