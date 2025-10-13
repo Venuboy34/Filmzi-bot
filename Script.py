@@ -635,7 +635,7 @@ Pay amount according to your plan and enjoy premium membership!
 
 This Is An Open-Source Project. You Can Use It Freely, But Selling The Source Code Is Strictly Prohibited.
 
-Source Code Here ◉› : <a href=https://github.com/Rpedit/HD-Pro-Search-Bot.git>Filmzi Bot</a>
+Source Code Here ◉› : <a href=https://github.com/filzii/filmzi_Search-Bot.git>Filmzi Bot</a>
 </b>"""
 
     SETTING_TXT = """<b>┏━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
