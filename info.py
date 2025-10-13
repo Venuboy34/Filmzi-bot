@@ -119,7 +119,7 @@ THREE_VERIFY_GAP = 54000
 # ============================
 # Channel & Group Links Configuration
 # ============================
-GRP_LNK = 'https://t.me/hdhub4ucommunity' # Group link for the bot
+GRP_LNK = 'https://t.me/zerodev216' # Group link for the bot
 OWNER_LNK = 'https://t.me/Zeroboy216' # Owner link for the bot
 UPDATE_CHNL_LNK = 'https://t.me/filmzimovies' # Update channel link for the bot
 
