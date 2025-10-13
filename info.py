@@ -29,7 +29,7 @@ CACHE_TIME = 300    # Cache time in seconds (default: 5 minutes)
 USE_CAPTION_FILTER = True  # Use caption filter for search results
 INDEX_CAPTION = True # Save caption db when indexing
 
-PICS = ['https://graph.org/file/246a70cb4387b59cceb15-9e968f8602a6acb36c.jpg']  # Sample pic
+PICS = ['https://ar-hosting.pages.dev/1760246816372.jpg']  # Sample pic
 NOR_IMG = "https://graph.org/file/e20b5fdaf217252964202.jpg"
 MELCOW_PHOTO = "https://graph.org/file/56b5deb73f3b132e2bb73.jpg"
 SPELL_IMG = "https://graph.org/file/13702ae26fb05df52667c.jpg"
@@ -42,7 +42,7 @@ FSUB_PICS = ['https://graph.org/file/e98dbe89391356a940db5-dbf10e15e03e1ed77a.jp
 ADMINS = [8304706556] # Admin ID(s)
 CHANNELS = [-1002897456594]  # Channel id for auto indexing
 
-LOG_CHANNEL = -1002897456594  # Log channel id
+LOG_CHANNEL = -1002995694885  # Log channel id
 BIN_CHANNEL = -1002897456594  # Bin channel id
 PREMIUM_LOGS = -1002897456594  # Premium logs channel id
 DELETE_CHANNELS = [-1002897456594] 
