@@ -39,16 +39,16 @@ FSUB_PICS = ['https://graph.org/file/e98dbe89391356a940db5-dbf10e15e03e1ed77a.jp
 # ============================
 # Admin, Channels & Users Configuration
 # ============================
-ADMINS = [830470655] # Admin ID(s) - Fixed: removed extra digit
+ADMINS = [8304706556] # Admin ID(s)
 CHANNELS = [-1002897456594]  # Channel id for auto indexing
 
-LOG_CHANNEL = -1002995694885  # Log channel id (updated)
+LOG_CHANNEL = -1002897456594  # Log channel id
 BIN_CHANNEL = -1002897456594  # Bin channel id
-PREMIUM_LOGS = -1002995694885  # Premium logs channel id (updated)
+PREMIUM_LOGS = -1002897456594  # Premium logs channel id
 DELETE_CHANNELS = [-1002897456594] 
 support_chat_id = -1002897456594  # Support group id
 reqst_channel = -1002897456594  # Request channel id
-SUPPORT_CHAT = 'https://t.me/filmzi_support'  # Support group link (updated)
+SUPPORT_CHAT = 'https://t.me/hd_pro_support_group'  # Support group link
 
 # FORCE_SUB 
 auth_req_channel = -1002897456594  # Channel for force sub
@@ -84,8 +84,7 @@ DATABASE_URI2 = DATABASE_URI  # Same as primary database
 # ============================
 MOVIE_UPDATE_NOTIFICATION = True  # Notification On (True) / Off (False)
 MOVIE_UPDATE_CHANNEL = -1002897456594  # Notification channel
-FILMZI_IMAGE_FETCH = True  # On (True) / Off (False) - Updated from DREAMXBOTZ
-DREAMXBOTZ_IMAGE_FETCH = True  # ADDED: This is the missing variable that causes the import error
+DREAMXBOTZ_IMAGE_FETCH = True  # On (True) / Off (False)
 LINK_PREVIEW = False # Shows link preview in notification msg instead of image
 ABOVE_PREVIEW = True # Shows link preview above the text in notification msg
 TMDB_API_KEY = '282fec93f7dac5a152e0b321327b46c4' # TMDB API Key
@@ -96,12 +95,12 @@ LANDSCAPE_POSTER = True # Shows landscape poster in notification msg
 # Verification Settings
 # ============================
 IS_VERIFY = False  # Verification On (True) / Off (False)
-LOG_VR_CHANNEL = -1002995694885 #Verification Channel Id (updated)
-LOG_API_CHANNEL = -1002995694885 #API Channel Id (updated)
+LOG_VR_CHANNEL = -1002897456594 #Verification Channel Id 
+LOG_API_CHANNEL = -1002897456594 #API Channel Id
 VERIFY_IMG = "https://graph.org/file/d7a2ec5a7343175789cbb-ce6b1d2e43103b5b20.jpg"
 
-TUTORIAL = "https://t.me/filmzi_updates"   # Tutorial link for verification (updated)
-TUTORIAL_2 = "https://t.me/filmzi_support"   # Second tutorial link (updated)
+TUTORIAL = "https://t.me/Zeroboy216"   # Tutorial link for verification
+TUTORIAL_2 = "https://t.me/Zeroboy216"   # Second tutorial link
 TUTORIAL_3 = "https://t.me/Zeroboy216"   # Third tutorial link
 
 # Verification Shortener Settings
@@ -120,23 +119,23 @@ THREE_VERIFY_GAP = 54000
 # ============================
 # Channel & Group Links Configuration
 # ============================
-GRP_LNK = 'https://t.me/filmzi_community' # Group link for the bot (updated)
+GRP_LNK = 'https://t.me/hdhub4ucommunity' # Group link for the bot
 OWNER_LNK = 'https://t.me/Zeroboy216' # Owner link for the bot
-UPDATE_CHNL_LNK = 'https://t.me/filmzi_updates' # Update channel link for the bot (updated)
+UPDATE_CHNL_LNK = 'https://t.me/+wKgwWFIWKOhhN2I1' # Update channel link for the bot
 
 # ============================
 # User Configuration
 # ============================
-auth_users = [830470655]
+auth_users = [8304706556]
 AUTH_USERS = (auth_users + ADMINS) if auth_users else []
-PREMIUM_USER = [830470655]
+PREMIUM_USER = [8304706556]
 
 # ============================
 # Miscellaneous Configuration
 # ============================
 MAX_B_TN = "5" # Maximum number of buttons in a row
 PORT = "8080"  # Port for the web server
-MSG_ALRT = '🎬 Thanks for using Filmzi! Share with friends! 🍿' # Alert message for users (updated)
+MSG_ALRT = 'Share & Support Us ♥️' # Alert message for users
 DELETE_TIME = 300  # Deletion time in seconds
 CUSTOM_FILE_CAPTION = f"{script.CAPTION}"   # Custom caption for files
 BATCH_FILE_CAPTION = CUSTOM_FILE_CAPTION # Custom caption for batch files
@@ -238,25 +237,25 @@ REACTIONS = ["🤝", "😇", "🤗", "😍", "👍", "🎅", "😐", "🥰", "�
 # Command Bot
 # ============================
 Bot_cmds = {
-    "start": "🎬 Start Filmzi Bot",
-    "stats": "📊 Get Bot Statistics",
-    "alive": "💚 Check Bot Status",
-    "settings": "⚙️ Change Settings",
-    "id": "🆔 Get Telegram ID",
-    "info": "👤 Get User Info",
-    "del_msg": "🗑️ Remove File Notifications",
-    "movie_update": "🔔 Movie Updates On/Off",
-    "pm_search": "🔍 PM Search On/Off",
-    "trendlist": "📈 Top Trending Searches",
-    "broadcast": "📢 Broadcast to Users",
-    "grp_broadcast": "📢 Broadcast to Groups",
-    "send": "📨 Send Message to User",
-    "add_premium": "⭐ Add Premium User",
-    "remove_premium": "⭐ Remove Premium User",
-    "premium_users": "⭐ Premium Users List",
-    "restart": "🔄 Restart Bot",
-    "group_cmd": "📋 Group Commands",
-    "admin_cmd": "👑 Admin Commands"
+    "start": "Sᴛᴀʀᴛ Mᴇ Bᴀʙʏ",
+    "stats": "Gᴇᴛ Bᴏᴛ Sᴛᴀᴛs",
+    "alive": " Cʜᴇᴄᴋ Bᴏᴛ Aʟɪᴠᴇ ᴏʀ Nᴏᴛ ",
+    "settings": "ᴄʜᴀɴɢᴇ sᴇᴛᴛɪɴɢs",
+    "id": "ɢᴇᴛ ɪᴅ ᴛᴇʟᴇɢʀᴀᴍ ",
+    "info": "Gᴇᴛ Usᴇʀ ɪɴғᴏ ",
+    "del_msg": "ʀᴇᴍᴏᴠᴇ ғɪʟᴇ ɴᴀᴍᴇ ᴄᴏʟʟᴇᴄᴛɪᴏɴ ɴᴏтɪғɪᴄᴀᴛɪᴏɴ...",
+    "movie_update": "ᴏɴ ᴏғғ ᴀᴄᴄᴏʀᴅɪɴɢ ʏᴏᴜʀ ɴᴇᴇᴅᴇᴅ...",
+    "pm_search": "ᴘᴍ sᴇᴀʀᴄʜ ᴏɴ ᴏғғ ᴀᴄᴄᴏʀᴅɪɴɢ ʏᴏᴜʀ ɴᴇᴇᴅᴇᴅ...",
+    "trendlist": "Gᴇᴛ Tᴏᴘ Tʀᴀɴᴅɪɴɢ Sᴇᴀʀᴄʜ Lɪsᴛ",
+    "broadcast": "ʙʀᴏᴀᴅᴄᴀꜱᴛ ᴀ ᴍᴇꜱꜱᴀɢᴇ ᴛᴏ ᴀʟʟ ᴜꜱᴇʀꜱ.",
+    "grp_broadcast": "ʙʀᴏᴀᴅᴄᴀsᴛ ᴀ ᴍᴇssᴀɢᴇ ᴛᴏ ᴀʟʟ ᴄᴏɴɴᴇᴄᴛᴇᴅ ɢʀᴏᴜᴘs",
+    "send": "ꜱᴇɴᴅ ᴍᴇꜱꜱᴀɢᴇ ᴛᴏ ᴀ ᴘᴀʀᴛɪᴄᴜʟᴀʀ ᴜꜱᴇʀ.",
+    "add_premium": "ᴀᴅᴅ ᴀɴʏ ᴜꜱᴇʀ ᴛᴏ ᴘʀᴇᴍɪᴜᴍ.",
+    "remove_premium": "ʀᴇᴍᴏᴠᴇ ᴀɴʏ ᴜꜱᴇʀ ꜰʀᴏᴍ ᴘʀᴇᴍɪᴜᴍ.",
+    "premium_users": "ɢᴇᴛ ʟɪꜱᴛ ᴏꜰ ᴘʀᴇᴍɪᴜᴍ ᴜꜱᴇʀꜱ.",
+    "restart": "ʀᴇꜱᴛᴀʀᴛ ᴛʜᴇ ʙᴏᴛ.",
+    "group_cmd": "ɢʀᴏᴜᴘ ᴄᴏᴍᴍᴀɴᴅ ʟɪsᴛ",
+    "admin_cmd": "ᴀᴅᴍɪɴ ᴄᴏᴍᴍᴀɴᴅs ʙɪsᴛ."
 }
 
 #Don't Change Anything Here
@@ -270,10 +269,10 @@ else:
 # ============================
 # Logs Configuration
 # ============================
-LOG_STR = "🎬 Filmzi Movie Bot - Current Configuration:\n"
-LOG_STR += ("✅ IMDB Results enabled\n" if IMDB else "❌ IMDB Results disabled\n")
-LOG_STR += ("✅ P_TTI_SHOW_OFF enabled - Users redirected to /start\n" if P_TTI_SHOW_OFF else "❌ P_TTI_SHOW_OFF disabled - Files sent directly\n")
-LOG_STR += ("✅ BUTTON_MODE enabled - Single button layout\n" if BUTTON_MODE else "❌ BUTTON_MODE disabled - Dual button layout\n")
-LOG_STR += (f"✅ Custom caption enabled\n" if CUSTOM_FILE_CAPTION else "❌ No custom caption - Using defaults\n")
-LOG_STR += ("✅ Long IMDB descriptions enabled\n" if LONG_IMDB_DESCRIPTION else "❌ Short IMDB descriptions\n")
-LOG_STR += ("✅ Spell Check enabled\n" if SPELL_CHECK_REPLY else "❌ Spell Check disabled\n")
+LOG_STR = "Current Customized Configurations are:-\n"
+LOG_STR += ("IMDB Results are enabled, Bot will be showing imdb details for your queries.\n" if IMDB else "IMDB Results are disabled.\n")
+LOG_STR += ("P_TTI_SHOW_OFF found, Users will be redirected to send /start to Bot PM instead of sending file directly.\n" if P_TTI_SHOW_OFF else "P_TTI_SHOW_OFF is disabled, files will be sent in PM instead of starting the bot.\n")
+LOG_STR += ("BUTTON_MODE is found, filename and file size will be shown in a single button instead of two separate buttons.\n" if BUTTON_MODE else "BUTTON_MODE is disabled, filename and file size will be shown as different buttons.\n")
+LOG_STR += (f"CUSTOM_FILE_CAPTION enabled with value {CUSTOM_FILE_CAPTION}, your files will be sent along with this customized caption.\n" if CUSTOM_FILE_CAPTION else "No CUSTOM_FILE_CAPTION Found, Default captions of file will be used.\n")
+LOG_STR += ("Long IMDB storyline enabled." if LONG_IMDB_DESCRIPTION else "LONG_IMDB_DESCRIPTION is disabled, Plot will be shorter.\n")
+LOG_STR += ("Spell Check Mode is enabled, bot will be suggesting related movies if movie name is misspelled.\n" if SPELL_CHECK_REPLY else "Spell Check Mode is disabled.\n")
