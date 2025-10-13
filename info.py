@@ -83,7 +83,7 @@ DATABASE_URI2 = DATABASE_URI  # Same as primary database
 # Movie Notification & Update Settings
 # ============================
 MOVIE_UPDATE_NOTIFICATION = True  # Notification On (True) / Off (False)
-MOVIE_UPDATE_CHANNEL = --1003153874686  # Notification channel
+MOVIE_UPDATE_CHANNEL = -1003153874686  # Notification channel
 DREAMXBOTZ_IMAGE_FETCH = True  # On (True) / Off (False)
 LINK_PREVIEW = False # Shows link preview in notification msg instead of image
 ABOVE_PREVIEW = True # Shows link preview above the text in notification msg
