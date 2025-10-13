@@ -39,7 +39,7 @@ FSUB_PICS = ['https://graph.org/file/e98dbe89391356a940db5-dbf10e15e03e1ed77a.jp
 # ============================
 # Admin, Channels & Users Configuration
 # ============================
-ADMINS = [8304706556] # Admin ID(s)
+ADMINS = [830470655] # Admin ID(s) - Fixed: removed extra digit
 CHANNELS = [-1002897456594]  # Channel id for auto indexing
 
 LOG_CHANNEL = -1002995694885  # Log channel id (updated)
@@ -85,6 +85,7 @@ DATABASE_URI2 = DATABASE_URI  # Same as primary database
 MOVIE_UPDATE_NOTIFICATION = True  # Notification On (True) / Off (False)
 MOVIE_UPDATE_CHANNEL = -1002897456594  # Notification channel
 FILMZI_IMAGE_FETCH = True  # On (True) / Off (False) - Updated from DREAMXBOTZ
+DREAMXBOTZ_IMAGE_FETCH = True  # ADDED: This is the missing variable that causes the import error
 LINK_PREVIEW = False # Shows link preview in notification msg instead of image
 ABOVE_PREVIEW = True # Shows link preview above the text in notification msg
 TMDB_API_KEY = '282fec93f7dac5a152e0b321327b46c4' # TMDB API Key
@@ -126,9 +127,9 @@ UPDATE_CHNL_LNK = 'https://t.me/filmzi_updates' # Update channel link for the bo
 # ============================
 # User Configuration
 # ============================
-auth_users = [8304706556]
+auth_users = [830470655]
 AUTH_USERS = (auth_users + ADMINS) if auth_users else []
-PREMIUM_USER = [8304706556]
+PREMIUM_USER = [830470655]
 
 # ============================
 # Miscellaneous Configuration
