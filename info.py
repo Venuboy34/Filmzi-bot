@@ -95,7 +95,7 @@ LANDSCAPE_POSTER = True # Shows landscape poster in notification msg
 # Verification Settings
 # ============================
 IS_VERIFY = False  # Verification On (True) / Off (False)
-LOG_VR_CHANNEL = -1002883834214 #Verification Channel Id 
+LOG_VR_CHANNEL = -1003189018702 #Verification Channel Id 
 LOG_API_CHANNEL = -1003153874686 #API Channel Id
 VERIFY_IMG = "https://graph.org/file/d7a2ec5a7343175789cbb-ce6b1d2e43103b5b20.jpg"
 
