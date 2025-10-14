@@ -51,8 +51,8 @@ reqst_channel = -1002897456594  # Request channel id
 SUPPORT_CHAT = 'https://t.me/hd_pro_support_group'  # Support group link
 
 # FORCE_SUB 
-auth_req_channel = -1002897456594  # Channel for force sub
-AUTH_CHANNELS = [-1002897456594]  # Channels for force sub
+auth_req_channel = -1003189018702  # Channel for force sub
+AUTH_CHANNELS = [-1003153874686]  # Channels for force sub
 
 # ============================
 # Payment Configuration
