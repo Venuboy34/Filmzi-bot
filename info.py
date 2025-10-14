@@ -29,7 +29,7 @@ CACHE_TIME = 300    # Cache time in seconds (default: 5 minutes)
 USE_CAPTION_FILTER = True  # Use caption filter for search results
 INDEX_CAPTION = True # Save caption db when indexing
 
-PICS = ['https://ar-hosting.pages.dev/1760246816372.jpg']  # Sample pic
+PICS = ['https://ar-hosting.pages.dev/1760420022991.jpg']  # Sample pic
 NOR_IMG = "https://graph.org/file/e20b5fdaf217252964202.jpg"
 MELCOW_PHOTO = "https://graph.org/file/56b5deb73f3b132e2bb73.jpg"
 SPELL_IMG = "https://graph.org/file/13702ae26fb05df52667c.jpg"
