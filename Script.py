@@ -1,15 +1,10 @@
 class script(object):
     START_TXT = """
-<b>🎬 Welcome to Filmzi Movie Downloader!</b>
+<b>ʜᴇʏ, {}! </b>
 
-<b>👋 Hey {}! Ready for movies? 🍿</b>
+<b>ɪ'ᴍ ᴛʜᴇ ᴍᴏsᴛ ᴘᴏᴡᴇʀғᴜʟ ᴀᴜᴛᴏ-ғɪʟᴛᴇʀ ʙᴏᴛ ᴡɪᴛʜ ᴘʀᴇᴍɪᴜᴍ ғᴇᴀᴛᴜʀᴇs 🎬</b>
 
-<b>🔍 Search Made Easy:</b>
-• Type any Movie/Series name
-• Use proper Google spelling
-• Get instant download links! ⚡
-
-<b>📥 Add me to your group for unlimited access!</b>"""
+<b>ᴊᴜsᴛ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴏʀ sᴇɴᴅ ᴍᴇ ᴀ ᴍᴏᴠɪᴇ ɴᴀᴍᴇ — ᴀɴᴅ ᴇɴᴊᴏʏ ɪɴsᴛᴀɴᴛ ʀᴇsᴜʟᴛs! 🍿</b>"""
     
     GSTART_TXT = """🎬 Welcome to Filmzi Movie Downloader!"""
     
@@ -41,7 +36,7 @@ class script(object):
 • Library: Pyrogram
 • Language: Python 3
 • Database: Mongo DB
-• Version: v2.4 [Stable]
+• Version: v2.5 [Stable]
 • Status: 🟢 Online</b>"""
     
     RESTART_TXT = """
