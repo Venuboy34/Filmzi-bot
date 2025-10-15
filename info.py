@@ -34,7 +34,7 @@ NOR_IMG = "https://graph.org/file/e20b5fdaf217252964202.jpg"
 MELCOW_PHOTO = "https://graph.org/file/56b5deb73f3b132e2bb73.jpg"
 SPELL_IMG = "https://graph.org/file/13702ae26fb05df52667c.jpg"
 SUBSCRIPTION = 'https://graph.org/file/242b7f1b52743938d81f1.jpg'
-FSUB_PICS = ['https://graph.org/file/e98dbe89391356a940db5-dbf10e15e03e1ed77a.jpg']  # Fsub pic
+FSUB_PICS = ['https://ar-hosting.pages.dev/1760512820363.jpg']  # Fsub pic
 
 # ============================
 # Admin, Channels & Users Configuration
@@ -48,7 +48,7 @@ PREMIUM_LOGS = -1002897456594  # Premium logs channel id
 DELETE_CHANNELS = [-1002897456594] 
 support_chat_id = -1002897456594  # Support group id
 reqst_channel = -1002897456594  # Request channel id
-SUPPORT_CHAT = 'https://t.me/hd_pro_support_group'  # Support group link
+SUPPORT_CHAT = 'https://t.me/zerodevbro'  # Support group link
 
 # FORCE_SUB 
 auth_req_channel = -1003189018702  # Channel for force sub
