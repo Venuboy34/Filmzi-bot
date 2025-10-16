@@ -1,6 +1,5 @@
 class script(object):
-    START_TXT = """
-<b>ʜᴇʏ, {}! </b>
+    START_TXT = """<b>ʜᴇʏ, {}! {}</b>
 
 <b>ɪ'ᴍ ᴛʜᴇ ᴍᴏsᴛ ᴘᴏᴡᴇʀғᴜʟ ᴀᴜᴛᴏ-ғɪʟᴛᴇʀ ʙᴏᴛ ᴡɪᴛʜ ᴘʀᴇᴍɪᴜᴍ ғᴇᴀᴛᴜʀᴇs 🎬</b>
 
@@ -36,7 +35,7 @@ class script(object):
 • Library: Pyrogram
 • Language: Python 3
 • Database: Mongo DB
-• Version: v2.5 [Stable]
+• Version: v3.4 [Stable]
 • Status: 🟢 Online</b>"""
     
     RESTART_TXT = """
