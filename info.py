@@ -181,7 +181,7 @@ MELCOW_NEW_USERS = False # Melcow New Users On (True) / Off (False)
 PROTECT_CONTENT = False # Protect Content On (True) / Off (False)
 PM_SEARCH = True  # PM Search On (True) / Off (False)
 EMOJI_MODE = True  # Emoji status On (True) / Off (False)
-BUTTON_MODE = True # pm & Group button or link mode (True) / Off (False)
+BUTTON_MODE = False # pm & Group button or link mode (True) / Off (False)
 STREAM_MODE = True # Set Stream mode True or False
 
 
