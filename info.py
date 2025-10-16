@@ -3,6 +3,7 @@ import os
 from os import environ, getenv
 from Script import script
 
+
 # Utility functions
 id_pattern = re.compile(r'^.\d+$')
 
@@ -14,6 +15,7 @@ def is_enabled(value, default):
     else:
         return default
 
+
 # ============================
 # Bot Information Configuration
 # ============================
@@ -22,6 +24,7 @@ API_ID = 20288994  # API ID from my.telegram.org
 API_HASH = 'd702614912f1ad370a0d18786002adbf'  # API Hash from my.telegram.org
 BOT_TOKEN = '8416909627:AAFbJM9nQtqqttTnuN1KOkRScR6Fa_Z6cLQ'    # Bot token from @BotFather
 
+
 # ============================
 # Bot Settings Configuration
 # ============================
@@ -29,18 +32,27 @@ CACHE_TIME = 300    # Cache time in seconds (default: 5 minutes)
 USE_CAPTION_FILTER = True  # Use caption filter for search results
 INDEX_CAPTION = True # Save caption db when indexing
 
-PICS = ['https://ar-hosting.pages.dev/1760420022991.jpg']  # Sample pic
+
+PICS = [
+    'https://ar-hosting.pages.dev/1760585776098.jpg',
+    'https://ar-hosting.pages.dev/1760584916644.jpg',
+    'https://ar-hosting.pages.dev/1760585089200.jpg',
+    'https://ar-hosting.pages.dev/1760585230722.jpg'
+]  # All your pictures
+
 NOR_IMG = "https://graph.org/file/e20b5fdaf217252964202.jpg"
 MELCOW_PHOTO = "https://graph.org/file/56b5deb73f3b132e2bb73.jpg"
 SPELL_IMG = "https://graph.org/file/13702ae26fb05df52667c.jpg"
 SUBSCRIPTION = 'https://graph.org/file/242b7f1b52743938d81f1.jpg'
 FSUB_PICS = ['https://ar-hosting.pages.dev/1760512820363.jpg']  # Fsub pic
 
+
 # ============================
 # Admin, Channels & Users Configuration
 # ============================
 ADMINS = [8304706556] # Admin ID(s)
 CHANNELS = [-1002897456594]  # Channel id for auto indexing
+
 
 LOG_CHANNEL = -1002995694885  # Log channel id
 BIN_CHANNEL = -1002897456594  # Bin channel id
@@ -50,15 +62,18 @@ support_chat_id = -1002897456594  # Support group id
 reqst_channel = -1002897456594  # Request channel id
 SUPPORT_CHAT = 'https://t.me/zerodevbro'  # Support group link
 
+
 # FORCE_SUB 
 auth_req_channel = -1003189018702  # Channel for force sub
 AUTH_CHANNELS = [-1003153874686]  # Channels for force sub
+
 
 # ============================
 # Payment Configuration
 # ============================
 QR_CODE = 'https://graph.org/file/1b2471aaeb5a7f4bb5266-cddfd202f6de756926.jpg'    # QR code image for payments
 OWNER_UPI_ID = 'ɴᴏ ᴀᴠᴀɪʟᴀʙʟᴇ ʀɪɢʜᴛ ɴᴏᴡ'    # Owner UPI ID for payments
+
 
 STAR_PREMIUM_PLANS = {
     10: "7day",
@@ -68,6 +83,7 @@ STAR_PREMIUM_PLANS = {
     75: "60day",
 }  # Premium plans with their respective durations in days
 
+
 # ============================
 # MongoDB Configuration
 # ============================
@@ -75,9 +91,11 @@ DATABASE_URI = "mongodb+srv://moviedatabase:venura%408907@cluster0.hg0etvt.mongo
 DATABASE_NAME = "Cluster0" # Database name
 COLLECTION_NAME = 'Filmzi_Files' # Collection name
 
+
 # Multiple DB Configuration
 MULTIPLE_DB = False # Set to False for single database
 DATABASE_URI2 = DATABASE_URI  # Same as primary database
+
 
 # ============================
 # Movie Notification & Update Settings
@@ -91,6 +109,7 @@ TMDB_API_KEY = '282fec93f7dac5a152e0b321327b46c4' # TMDB API Key
 TMDB_POSTER = True # Shows TMDB poster in notification msg
 LANDSCAPE_POSTER = True # Shows landscape poster in notification msg
 
+
 # ============================
 # Verification Settings
 # ============================
@@ -99,22 +118,28 @@ LOG_VR_CHANNEL = -1002897456594 #Verification Channel Id
 LOG_API_CHANNEL = -1002897456594 #API Channel Id
 VERIFY_IMG = "https://graph.org/file/d7a2ec5a7343175789cbb-ce6b1d2e43103b5b20.jpg"
 
+
 TUTORIAL = "https://t.me/Zeroboy216"   # Tutorial link for verification
 TUTORIAL_2 = "https://t.me/Zeroboy216"   # Second tutorial link
 TUTORIAL_3 = "https://t.me/Zeroboy216"   # Third tutorial link
+
 
 # Verification Shortener Settings
 SHORTENER_API = "a7ac9b3012c67d7491414cf272d82593c75f6cbb" # Shortener API key
 SHORTENER_WEBSITE = "omegalinks.in" # Shortener website
 
+
 SHORTENER_API2 = "a7ac9b3012c67d7491414cf272d82593c75f6cbb"  # Shortener API key for second website
 SHORTENER_WEBSITE2 = "omegalinks.in" # Shortener website for second website
+
 
 SHORTENER_API3 = "a7ac9b3012c67d7491414cf272d82593c75f6cbb"  
 SHORTENER_WEBSITE3 = "omegalinks.in" # Shortener website for third website
 
+
 TWO_VERIFY_GAP = 1200 # Time gap for two-step verification in seconds
 THREE_VERIFY_GAP = 54000    
+
 
 # ============================
 # Channel & Group Links Configuration
@@ -123,12 +148,14 @@ GRP_LNK = 'https://t.me/zerodev216' # Group link for the bot
 OWNER_LNK = 'https://t.me/Zeroboy216' # Owner link for the bot
 UPDATE_CHNL_LNK = 'https://t.me/filmzimovies' # Update channel link for the bot
 
+
 # ============================
 # User Configuration
 # ============================
 auth_users = [8304706556]
 AUTH_USERS = (auth_users + ADMINS) if auth_users else []
 PREMIUM_USER = [8304706556]
+
 
 # ============================
 # Miscellaneous Configuration
@@ -157,6 +184,7 @@ EMOJI_MODE = True  # Emoji status On (True) / Off (False)
 BUTTON_MODE = True # pm & Group button or link mode (True) / Off (False)
 STREAM_MODE = True # Set Stream mode True or False
 
+
 # ============================
 # Bot Configuration
 # ============================
@@ -166,8 +194,10 @@ SUPPORT_CHAT_ID = support_chat_id
 LANGUAGES = ["malayalam", "", "tamil", "", "english", "", "hindi", "", "telugu", "", "kannada", "", "gujarati", "", "marathi", "", "punjabi", ""]
 QUALITIES = ["360P", "", "480P", "", "720P", "", "1080P", "", "1440P", "", "2160P", ""]
 
+
 SEASON_COUNT = 12
 SEASONS = [f"S{str(i).zfill(2)}" for i in range(1, SEASON_COUNT + 1)]
+
 
 BAD_WORDS = {
     "PrivateMovieZ",
@@ -185,11 +215,13 @@ BAD_WORDS = {
     "primefix",
 } # Set of bad words to filter out
 
+
 # ============================
 # Server & Web Configuration
 # ============================
 NO_PORT = False
 APP_NAME = None
+
 
 # Fix for the environ error - check if we're on Heroku/Koyeb
 ON_HEROKU = False
@@ -199,14 +231,17 @@ if 'DYNO' in os.environ:
 else:
     ON_HEROKU = False
 
+
 BIND_ADRESS = 'various-tessy-zerocreationhh-2405d2b2.koyeb.app'
 FQDN = BIND_ADRESS if not ON_HEROKU or os.getenv('FQDN') else APP_NAME+'.herokuapp.com'
+
 
 # Fix URL construction
 if ON_HEROKU or NO_PORT:
     URL = f"https://{FQDN}/"
 else:
     URL = f"https://{FQDN}:{PORT}/"
+
 
 SLEEP_THRESHOLD = 60
 WORKERS = 4
@@ -215,6 +250,7 @@ MULTI_CLIENT = False
 name = 'FilmziMovieBot'
 PING_INTERVAL = 1200  # 20 minutes
 
+
 # Fix the second ON_HEROKU check
 if 'DYNO' in os.environ:
     ON_HEROKU = True
@@ -222,16 +258,19 @@ if 'DYNO' in os.environ:
 else:
     ON_HEROKU = False
 
+
 HAS_SSL = True
 if HAS_SSL:
     URL = f"https://{FQDN}/"
 else:
     URL = f"http://{FQDN}/"
 
+
 # ============================
 # Reactions Configuration
 # ============================
 REACTIONS = ["🤝", "😇", "🤗", "😍", "👍", "🎅", "😐", "🥰", "🤩", "😱", "🤣", "😘", "👏", "😛", "😈", "🎉", "⚡️", "🫡", "🤓", "😎", "🏆", "🔥", "🤭", "🌚", "🆒", "👻", "😁"]
+
 
 # ============================
 # Command Bot
@@ -249,7 +288,7 @@ Bot_cmds = {
     "trendlist": "Gᴇᴛ Tᴏᴘ Tʀᴀɴᴅɪɴɢ Sᴇᴀʀᴄʜ Lɪsᴛ",
     "broadcast": "ʙʀᴏᴀᴅᴄᴀꜱᴛ ᴀ ᴍᴇꜱꜱᴀɢᴇ ᴛᴏ ᴀʟʟ ᴜꜱᴇʀꜱ.",
     "grp_broadcast": "ʙʀᴏᴀᴅᴄᴀsᴛ ᴀ ᴍᴇssᴀɢᴇ ᴛᴏ ᴀʟʟ ᴄᴏɴɴᴇᴄᴛᴇᴅ ɢʀᴏᴜᴘs",
-    "send": "ꜱᴇɴᴅ ᴍᴇꜱꜱᴀɢᴇ ᴛᴏ ᴀ ᴘᴀʀᴛɪᴄᴜʟᴀʀ ᴜꜱᴇʀ.",
+    "send": "ꜱᴇɴᴇ ᴍᴇꜱꜱᴀɢᴇ ᴛᴏ ᴀ ᴘᴀʀᴛɪᴄᴜʟᴀʀ ᴜꜱᴇʀ.",
     "add_premium": "ᴀᴅᴅ ᴀɴʏ ᴜꜱᴇʀ ᴛᴏ ᴘʀᴇᴍɪᴜᴍ.",
     "remove_premium": "ʀᴇᴍᴏᴠᴇ ᴀɴʏ ᴜꜱᴇʀ ꜰʀᴏᴍ ᴘʀᴇᴍɪᴜᴍ.",
     "premium_users": "ɢᴇᴛ ʟɪꜱᴛ ᴏꜰ ᴘʀᴇᴍɪᴜᴍ ᴜꜱᴇʀꜱ.",
@@ -258,6 +297,7 @@ Bot_cmds = {
     "admin_cmd": "ᴀᴅᴍɪɴ ᴄᴏᴍᴍᴀɴᴅs ʙɪsᴛ."
 }
 
+
 #Don't Change Anything Here
 if MULTIPLE_DB == False:
     DATABASE_URI = DATABASE_URI
@@ -265,6 +305,7 @@ if MULTIPLE_DB == False:
 else:
     DATABASE_URI = DATABASE_URI
     DATABASE_URI2 = DATABASE_URI2
+
 
 # ============================
 # Logs Configuration
