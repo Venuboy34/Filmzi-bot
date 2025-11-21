@@ -22,7 +22,7 @@ def is_enabled(value, default):
 SESSION = 'FilmziMovieBot'   # Session name for the bot
 API_ID = 20288994  # API ID from my.telegram.org
 API_HASH = 'd702614912f1ad370a0d18786002adbf'  # API Hash from my.telegram.org
-BOT_TOKEN = '8416909627:AAFbJM9nQtqqttTnuN1KOkRScR6Fa_Z6cLQ'    # Bot token from @BotFather
+BOT_TOKEN = '7774724579:AAFoVWeD8CFWlOEWGPYdTpVB7amuuGSf4gc'    # Bot token from @BotFather
 
 
 # ============================
@@ -87,7 +87,7 @@ STAR_PREMIUM_PLANS = {
 # ============================
 # MongoDB Configuration
 # ============================
-DATABASE_URI = "mongodb+srv://moviedatabase:venura%408907@cluster0.hg0etvt.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"  # MongoDB URI for the database
+DATABASE_URI = "mongodb+srv://zerodev699_db_user:zero8907@cluster0.lg17ipn.mongodb.net/?appName=Cluster0"  # MongoDB URI for the database
 DATABASE_NAME = "Cluster0" # Database name
 COLLECTION_NAME = 'Filmzi_Files' # Collection name
 
@@ -181,7 +181,7 @@ MELCOW_NEW_USERS = False # Melcow New Users On (True) / Off (False)
 PROTECT_CONTENT = False # Protect Content On (True) / Off (False)
 PM_SEARCH = True  # PM Search On (True) / Off (False)
 EMOJI_MODE = True  # Emoji status On (True) / Off (False)
-BUTTON_MODE = False # pm & Group button or link mode (True) / Off (False)
+BUTTON_MODE = True # pm & Group button or link mode (True) / Off (False)
 STREAM_MODE = True # Set Stream mode True or False
 
 
