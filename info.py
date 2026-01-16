@@ -232,7 +232,7 @@ else:
     ON_HEROKU = False
 
 
-BIND_ADRESS = 'weary-thelma-zerocreationhh-12430494.koyeb.app'
+BIND_ADRESS = 'filmzi-bot.onrender.com'
 FQDN = BIND_ADRESS if not ON_HEROKU or os.getenv('FQDN') else APP_NAME+'.herokuapp.com'
 
 
