@@ -22,7 +22,7 @@ def is_enabled(value, default):
 SESSION = 'FilmziMovieBot'   # Session name for the bot
 API_ID = 20288994  # API ID from my.telegram.org
 API_HASH = 'd702614912f1ad370a0d18786002adbf'  # API Hash from my.telegram.org
-BOT_TOKEN = '7774724579:AAFoVWeD8CFWlOEWGPYdTpVB7amuuGSf4gc'    # Bot token from @BotFather
+BOT_TOKEN = '8551650456:AAHjv7hyhNFMl4borM-gLneIEcZhtLZ5-qc'    # Bot token from @BotFather
 
 
 # ============================
@@ -50,17 +50,17 @@ FSUB_PICS = ['https://ar-hosting.pages.dev/1760512820363.jpg']  # Fsub pic
 # ============================
 # Admin, Channels & Users Configuration
 # ============================
-ADMINS = [8304706556] # Admin ID(s)
+ADMINS = [8312532076] # Admin ID(s)
 CHANNELS = [-1002897456594]  # Channel id for auto indexing
 
 
-LOG_CHANNEL = -1002995694885  # Log channel id
+LOG_CHANNEL = -1003382486179  # Log channel id
 BIN_CHANNEL = -1002897456594  # Bin channel id
 PREMIUM_LOGS = -1002897456594  # Premium logs channel id
 DELETE_CHANNELS = [-1002897456594] 
 support_chat_id = -1002897456594  # Support group id
 reqst_channel = -1002897456594  # Request channel id
-SUPPORT_CHAT = 'https://t.me/zerodevbro'  # Support group link
+SUPPORT_CHAT = 'https://t.me/zerodev2'  # Support group link
 
 
 # FORCE_SUB 
@@ -101,7 +101,7 @@ DATABASE_URI2 = DATABASE_URI  # Same as primary database
 # Movie Notification & Update Settings
 # ============================
 MOVIE_UPDATE_NOTIFICATION = True  # Notification On (True) / Off (False)
-MOVIE_UPDATE_CHANNEL = -1003153874686  # Notification channel
+MOVIE_UPDATE_CHANNEL = -1003318483881  # Notification channel
 DREAMXBOTZ_IMAGE_FETCH = True  # On (True) / Off (False)
 LINK_PREVIEW = False # Shows link preview in notification msg instead of image
 ABOVE_PREVIEW = True # Shows link preview above the text in notification msg
@@ -144,9 +144,9 @@ THREE_VERIFY_GAP = 54000
 # ============================
 # Channel & Group Links Configuration
 # ============================
-GRP_LNK = 'https://t.me/zerodev216' # Group link for the bot
+GRP_LNK = 'https://t.me/zerodev2' # Group link for the bot
 OWNER_LNK = 'https://t.me/Zeroboy216' # Owner link for the bot
-UPDATE_CHNL_LNK = 'https://t.me/filmzimovies' # Update channel link for the bot
+UPDATE_CHNL_LNK = 'https://t.me/mvxybotupdate' # Update channel link for the bot
 
 
 # ============================
