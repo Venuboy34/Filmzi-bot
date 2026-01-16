@@ -152,9 +152,9 @@ UPDATE_CHNL_LNK = 'https://t.me/mvxybotupdate' # Update channel link for the bot
 # ============================
 # User Configuration
 # ============================
-auth_users = [8304706556]
+auth_users = [8312532076]
 AUTH_USERS = (auth_users + ADMINS) if auth_users else []
-PREMIUM_USER = [8304706556]
+PREMIUM_USER = [8312532076]
 
 
 # ============================
