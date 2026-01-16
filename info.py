@@ -34,17 +34,17 @@ INDEX_CAPTION = True # Save caption db when indexing
 
 
 PICS = [
-    'https://ar-hosting.pages.dev/1760585776098.jpg',
-    'https://ar-hosting.pages.dev/1760584916644.jpg',
-    'https://ar-hosting.pages.dev/1760585089200.jpg',
-    'https://ar-hosting.pages.dev/1760585230722.jpg'
+    'https://i.ibb.co/ksrvqFFw/img-8312532076.jpg',
+    'https://i.ibb.co/LhrhYmjz/img-8312532076.jpg',
+    'https://i.ibb.co/DDwXh1hJ/img-8312532076.jpg',
+    'https://i.ibb.co/HLsntHQm/img-8312532076.jpg'
 ]  # All your pictures
 
 NOR_IMG = "https://graph.org/file/e20b5fdaf217252964202.jpg"
 MELCOW_PHOTO = "https://graph.org/file/56b5deb73f3b132e2bb73.jpg"
 SPELL_IMG = "https://graph.org/file/13702ae26fb05df52667c.jpg"
 SUBSCRIPTION = 'https://graph.org/file/242b7f1b52743938d81f1.jpg'
-FSUB_PICS = ['https://ar-hosting.pages.dev/1760512820363.jpg']  # Fsub pic
+FSUB_PICS = ['https://i.ibb.co/pr2H8cwT/img-8312532076.jpg']  # Fsub pic
 
 
 # ============================
@@ -64,8 +64,8 @@ SUPPORT_CHAT = 'https://t.me/zerodev2'  # Support group link
 
 
 # FORCE_SUB 
-auth_req_channel = -1003189018702  # Channel for force sub
-AUTH_CHANNELS = [-1003153874686]  # Channels for force sub
+auth_req_channel = -1002997352630  # Channel for force sub
+AUTH_CHANNELS = [-1003662705513]  # Channels for force sub
 
 
 # ============================
