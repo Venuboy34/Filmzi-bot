@@ -33,13 +33,7 @@ USE_CAPTION_FILTER = True  # Use caption filter for search results
 INDEX_CAPTION = True # Save caption db when indexing
 
 
-PICS = [
-    'https://i.ibb.co/ksrvqFFw/img-8312532076.jpg',
-    'https://i.ibb.co/LhrhYmjz/img-8312532076.jpg',
-    'https://i.ibb.co/DDwXh1hJ/img-8312532076.jpg',
-    'https://i.ibb.co/HLsntHQm/img-8312532076.jpg'
-]  # All your pictures
-
+PICS = ["https://api.aniwallpaper.workers.dev/random?type=boy"]  # All your pictures
 NOR_IMG = "https://graph.org/file/e20b5fdaf217252964202.jpg"
 MELCOW_PHOTO = "https://graph.org/file/56b5deb73f3b132e2bb73.jpg"
 SPELL_IMG = "https://graph.org/file/13702ae26fb05df52667c.jpg"
@@ -51,21 +45,21 @@ FSUB_PICS = ['https://i.ibb.co/pr2H8cwT/img-8312532076.jpg']  # Fsub pic
 # Admin, Channels & Users Configuration
 # ============================
 ADMINS = [8312532076] # Admin ID(s)
-CHANNELS = [-1002897456594]  # Channel id for auto indexing
+CHANNELS = [-1003679549742]  # Channel id for auto indexing
 
 
 LOG_CHANNEL = -1003382486179  # Log channel id
-BIN_CHANNEL = -1002897456594  # Bin channel id
-PREMIUM_LOGS = -1002897456594  # Premium logs channel id
-DELETE_CHANNELS = [-1002897456594] 
-support_chat_id = -1002897456594  # Support group id
-reqst_channel = -1002897456594  # Request channel id
+BIN_CHANNEL = -1003679549742  # Bin channel id
+PREMIUM_LOGS = -1003679549742  # Premium logs channel id
+DELETE_CHANNELS = [-1003679549742] 
+support_chat_id = -1003679549742  # Support group id
+reqst_channel = -1003679549742  # Request channel id
 SUPPORT_CHAT = 'https://t.me/zerodev2'  # Support group link
 
 
 # FORCE_SUB 
 auth_req_channel = -1002997352630  # Channel for force sub
-AUTH_CHANNELS = [-1003662705513]  # Channels for force sub
+AUTH_CHANNELS = "-1003662705513 -1003318483881"  # Channels for force sub
 
 
 # ============================
@@ -87,7 +81,7 @@ STAR_PREMIUM_PLANS = {
 # ============================
 # MongoDB Configuration
 # ============================
-DATABASE_URI = "mongodb+srv://Zerobothost:zerobothost@cluster0.bl0tf2.mongodb.net/?appName=Cluster0"  # MongoDB URI for the database
+DATABASE_URI = "mongodb+srv://zerodev699_db_user:zero8907@cluster0.1asqdb9.mongodb.net/?appName=Cluster0"  # MongoDB URI for the database
 DATABASE_NAME = "Cluster0" # Database name
 COLLECTION_NAME = 'Filmzi_Files' # Collection name
 
@@ -114,8 +108,8 @@ LANDSCAPE_POSTER = True # Shows landscape poster in notification msg
 # Verification Settings
 # ============================
 IS_VERIFY = False  # Verification On (True) / Off (False)
-LOG_VR_CHANNEL = -1002897456594 #Verification Channel Id 
-LOG_API_CHANNEL = -1002897456594 #API Channel Id
+LOG_VR_CHANNEL = -1003679549742 #Verification Channel Id 
+LOG_API_CHANNEL = -1003679549742 #API Channel Id
 VERIFY_IMG = "https://graph.org/file/d7a2ec5a7343175789cbb-ce6b1d2e43103b5b20.jpg"
 
 
